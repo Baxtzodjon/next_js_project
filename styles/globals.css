@@ -2,26 +2,73 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+    background-color: #11112B;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.container_blc {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.my_back {
+    background-image: url('/images/back_white.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 771px;
+}
+
+.wireframe {
+    background-image: url('/images/wireframe_vector.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.white_back {
+    background-image: url('/images/white_back.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.transp_text {
+    color: #11112B;
+    font-size: 70px;
+    line-height: 90px;
+    font-weight: 700;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+}
+
+.project_back {
+    background-image: url('/images/project_back.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 1800px;
+}
+
+.light_blc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    height: 590px;
+    background-color: #92DEED;
+    border-radius: 50px;
+    box-shadow: 0 0 5px #92DEED,
+    0 0 25px #92DEED,
+    0 0 50px #92DEED,
+    0 0 200px #92DEED;
 }
