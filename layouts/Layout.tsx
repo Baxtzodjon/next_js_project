@@ -17,7 +17,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
                 {children}
 
-                <Footer />
+                {/* <Footer /> */} {/* я временно выключил это footer */}
 
             </div>
 
