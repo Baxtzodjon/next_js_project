@@ -72,3 +72,13 @@ body {
     0 0 50px #92DEED,
     0 0 200px #92DEED;
 }
+
+.weather_blc {
+    position: relative;
+    width: 290px;
+    height: 600px;
+    background: linear-gradient(192.05deg, #47BFDF 0%, #4A91FF 100%);
+    border-radius: 11px;
+    padding: 30px 20px;
+    margin: 20px;
+}
